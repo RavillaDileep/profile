@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Disease Information</title>
+  <style>
+    .content {
+      display: none;
+    }
+    
+    .active {
+      display: block;
+    }
+    
+    .disease-link {
+      cursor: pointer;
+      color: lime;
+      font-size:36px;
+      text-decoration: underline;
+    }
+    .divbackg {
+    background-image: url(https://wallpapercave.com/wp/wp2219692.jpg);
+}
+  </style>
+  <script>
+    function toggleContent(id) {
+      var content = document.getElementById(id);
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+      } else {
+        content.style.display = 'block';
+      }
+    }
+  </script>
+</head>
+<body>
+<div  class="divbackg">
+<header>
+  <h1 align="center"><p style="color:crimson"><b>LIVE HEALTHY</p></b></h1>
+</header>
+<main>
+<section>
+   <li>By raising public awareness about important health issues, healthcare campaigns can reduce ill-health and premature deaths from diseases that are treatable if they are addressed in time.</li> <li> The importance of health awareness campaigns lies in giving people the opportunity to take accountability for their health.</li>
+  <h2><p style="color:purple">MAJOR DISEASES THAT PEOPLE FACING ARE : </p></h2>
+  <ul>
+    <li>
+      <span class="disease-link" onclick="toggleContent('flu')">Flu</span>
+      <div class="content" id="flu">
+        <h2>Flu</h2>
+        <h3>Do's</h3>
+        <ul>
+          <li><font-size:30px>Drink plenty of fluids</li>
+          <li>Get plenty of rest</li>
+          <li>Prevent the spread</li>
+          <li>Seek medical advice</li>
+          <li>Relieve sore throat</li>
+        </ul>
+        <h3>Don'ts</h3>
+        <ul>
+          <li>Don't take cough medicine without prescription</li>
+          <li>Don't take antibiotics</li>
+          <li>Don't take cold shower </li>
+          <li>Don't drink a hot toddy</li>
+          <li>Don't go to work</li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <span class="disease-link" onclick="toggleContent('diabetes')">Diabetes</span>
+      <div class="content" id="diabetes">
+        <h2>Diabetes</h2>
+        <h3>Do's</h3>
+        <ul>
+          <li> Consult the health care professionals </li>
+          <li> Monitor blood sugar levels </li>
+          <li> stay physical active </li>
+           <li> Follow a healthy meal plan </li>
+          <li> take prescribed medicines </li> 
+        </ul>
+        <h3>Don'ts</h3>
+        <ul>
+          <li>Don't Neglect your medication </li>
+          <li>Don't ignore carbohydrates </li>
+          <li>Don't skip meals </li>
+           <li>Don't smoke or drink alcohol </li>
+            <li>Don't neglect your physical activity </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+     <span class="disease-link" onclick="toggleContent('corona')">Corona</span>
+      <div class="content" id="corona">
+        <h2>Corona</h2>
+        <h3>Do's</h3>
+        <ul>
+          <li> Wear a mask </li>
+          <li> stay hydrated and get good rest </li>
+          <li> follow medical healthcare </li>
+          <li> isolate yourself and stay home</li>
+          <li> contact healthcare professionals </li> 
+        </ul>
+        <h3>Don'ts</h3>
+        <ul>
+          <li>Don't Ignore your symptoms </li>
+          <li>Don't go out in public </li>
+          <li>Don't use public transport </li>
+           <li>Don't ignore quarantine </li> 
+           <li>Don't panic </li>
+            </ul>
+      </div>
+    </li>
+    <li>
+    <span class="disease-link" onclick="toggleContent('cancer')">Cancer</span>
+      <div class="content" id="cancer">
+        <h2>Cancer</h2>
+        <h3>Do's</h3>
+        <ul>
+          <li> Seeks specialised medical care </li>
+          <li> educate yourself </li>
+          <li> build a support network </li>
+          <li> Communicate openly with your healthcare team </li>
+           <li> follow your treatment plan</li>
+        </ul>
+        <h3>Don'ts</h3>
+        <ul>
+          <li>Don't delay appointments </li>
+          <li>Don't ignore medical advice </li>
+          <li>Don't neglect your mental and emotional health </li>
+           <li>Don't lose hope </li>
+            <li>Don't hesitate to ask for help </li> 
+        </ul>
+      </div>
+    </li>
+    <li>
+    <span class="disease-link" onclick="toggleContent('mental health disorder')">Mental health disorder</span>
+      <div class="content" id="mental health disorder">
+        <h2>Mental health disorder</h2>
+        <h3>Do's</h3>
+        <ul>
+          <li> Educate yourself </li>
+          <li> talk to someone your trust</li>
+          <li> Follow your treatment plan </li>
+          <li> engage in therapy </li>
+          <li> be patient and persistent </li>
+        </ul>
+        <h3>Don'ts</h3>
+        <ul>
+          <li>Don't self diagnose </li>
+          <li>Don't isolate yourself </li>
+          <li>Don't stop treatment abruptly </li>
+           <li>Don't compare yourself with others </li>
+           <li>Don't giveup </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+    <span class="disease-link" onclick="toggleContent('obesity')">Obesity</span>
+      <div class="content" id="obesity">
+        <h2>Obesity</h2>
+        <h3>Do's</h3>
+        <ul>
+          <li> Follow a balanced diet and Nutritious food </li>
+          <li> engage in regular physical activity </li>
+          <li> prioritise behaviour changes </li>
+          <li> set realistic goals  </li>
+          <li> be patient and kind to yourself </li>
+        </ul>
+        <h3>Don'ts</h3>
+        <ul>
+          <li>Don't Isolate yourself or suffer in silence </li>
+          <li>Don't Engage in negative self talk or self blame </li>
+          <li>Don't neglect physical activity </li>
+          <li>Don't relay solely on fat diets </li>
+          <li>Don't compare yourself to others </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+    <span class="disease-link" onclick="toggleContent('respiratory diseases')">Respiratory diseases</span>
+      <div class="content" id="respiratory diseases">
+        <h2>Respiratory diseases</h2>
+        <h3>Do's</h3>
+        <ul>
+          <li> Stay active and exercise </li>
+          <li> Seek medical attention  </li>
+          <li> avoid triggers and irritants </li>
+           <li> maintain good indoor air quality </li>
+           <li> practise good respiratory hygiene </li>
+        </ul>
+        <h3>Don'ts</h3>
+        <ul>
+          <li>Don't smoke or use tobacco products </li>
+            <li>Don't neglect prescribed medications </li>
+           <li>Don't neglect vaccination </li>
+           <li>Don't skip regular checkups </li>
+           <li>Don't ignore symptoms </li>
+         </ul>
+      </div>
+    </li>    
+    <li>
+    <span class="disease-link" onclick="toggleContent('malaria')">Malaria</span>
+      <div class="content" id="malaria">
+        <h2>Malaria</h2>
+        <h3>Do's</h3>
+        <ul>
+          <li> seek medical attention </li>
+          <li> diagnostic tests  </li>
+          <li> follow prescribed treatment </li>
+           <li>take rest and stay hydrated </li>
+           <li> prevent mosquito bites</li>
+        </ul>
+        <h3>Don'ts</h3>
+        <ul>
+          <li>Don't delay seeking medical attention </li>
+            <li>Don't self diagonise or self medicate </li>
+           <li>Don't neglect preventive measures</li>
+           <li>Don't travel without medical clearence </li>
+           <li>Don't ignore symptoms or delay treatment</li>
+         </ul>
+      </div>
+    </li>    
+     <!-- Repeat the above code block for each disease -->
+  </ul>
+
+</section>
+<h1><p style="color:maroon"><b>NUTRITION</p></b></h1>
+<section>
+<p><li>The six essential nutrients are vitamins, minerals, protein, fats, water, and carbohydrates.</li>
+<li>People need to consume these nutrients from dietary sources for proper body function.</li>
+<li>Essential nutrients are crucial in supporting a person’s reproduction, good health, and growth.</li>
+<li>These essential nutrients are divided into two categories: micronutrients and macronutrients.</li>
+<li>Micronutrients are nutrients that a person needs in small doses.</li>
+<li>Micronutrients consist of vitamins and minerals.</li>
+<li>Although the body only needs small amounts of them, a deficiency can cause ill health.</li>
+<li>Macronutrients are nutrients that a person needs in larger amounts.</li>
+<li>Macronutrients include water, protein, carbohydrates, and fats.</li>
+</p>
+</section>
+<section>
+<h1><p style="color:brown"><b>FOOD HABITS</p></b></h1>
+<p><li>Food habits refer to dietary practices and patterns that an individual follows.</li>
+<li>It includes the types of food consumed,the frequency of eating,and the method of preparation.</li>
+<li>Food habits can vary widely based on cultural,social and economics factors.</li>
+<li>A well-balanced diet provides all of the:
+energy you need to keep active throughout the day ,
+nutrients you need for growth and repair, 
+helping you to stay strong and healthy and
+help to prevent diet-related illness, such as some cancers,diabetes,heart health,strong bones and teeth etc.,.</li>
+<li>Drink fat-free or low-fat milk and eat low-fat dairy products.</li>
+<li>Choose from a variety of low-fat sources of protein — including eggs, beans, poultry without skin, seafood, lean meats, unsalted nuts, seeds, and soya products.</li> 
+<li>If you eat meat, eat white meat at least four times more often than red meat.</li>
+<li>Reduce intake of saturated fats and trans-fats (such as partially hydrogenated oil) as much as possible.</li>
+<li>Use vegetable oils (like olive or canola oil) instead of solid fats.</li>
+<li>Reduce daily intake of salt or sodium.</li>
+</p>
+</div>
+</section>
+</main>
+</body>
+</html>

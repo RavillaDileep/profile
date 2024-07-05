@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Issue Tracker</title>
+        <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"crossorigin=anonymous>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Issue Tracker</h1>
+            <div class="jumbotron">
+                <h3>ADD New Issue:</h3>
+                <div class="form-group">
+                    <label for="issueDescription">Description</label>
+                    <input type="text" class="form-control"id="issueDescription"placeholder="Enter the description...">
+                </div>
+                <div class="form-group">
+                    <label for="issue Severity">severity</label>
+                    <select id="issueSeverity"class="form-control">
+                        <option value="low">low</option1>
+                        <option value="medium">medium</option2>
+                        <option value="high">high</option3>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="issueAssignedTo">AssignedTo</label>
+                    <input type="text"id="issueAssignedTo"class="form-control"placeholder="Enter resposible">
+                </div>
+                <button id="issue add" onclick="submitIssue"class="btn btn-primary">ADD</button>
+            </form>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+    </body>
+    
+    </html>
